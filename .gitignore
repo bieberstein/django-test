@@ -1,0 +1,39 @@
+*.pyc
+llgo.db
+*/llgo.db
+
+.DS_Store
+
+# Vim swap files
+.*.sw[mnop]
+
+# Uploaded layers/redlines
+django_src/static/files/layers/*.db
+django_src/deploy/static/files/redlines/*.db
+
+# Configured djongo settings files
+django_src/llgo_web/settings.py
+
+# exuberant-tags file
+tags
+
+# GeoServer files that shouldn't be tracked in the repo
+OpenGeo/GeoLatLonGO/geoserver_data/data/
+OpenGeo/GeoLatLonGO/geoserver_data/gwc/diskquota_page_store/
+OpenGeo/GeoLatLonGO/geoserver_data/gwc/latlongo_wdi_fibre_network/
+OpenGeo/GeoLatLonGO/geoserver_data/gwc/meta_jdbc_h2/
+OpenGeo/GeoLatLonGO/geoserver_data/security/geoserver.jceks
+OpenGeo/GeoLatLonGO/geoserver_data/security/masterpw.digest
+OpenGeo/GeoLatLonGO/geoserver_data/security/masterpw.info
+OpenGeo/GeoLatLonGO/geoserver_data/security/masterpw/default/passwd
+GISPlugins/SpatialNET/tests/test_data_store.sqlite
+*.pydevproject
+*.project
+GISPlugins/Smallworld/wdi!map_tile_generator/source/#wdi!map_tile_generator_engine.magik#
+GISPlugins/Smallworld/wdi!map_tile_generator/source/wdi!map_tile_generator_engine.magik.bak
+GISPlugins/Smallworld/wdi!map_tile_generator/source/wdi!map_tile_generator_engine.magik~
+GISPlugins/Smallworld/wdi!map_tile_generator/source/wdi!map_tile_generator_gui_plugin.magik.bak
+GISPlugins/Smallworld/wdi!map_tile_generator/source/wdi!map_tile_generator_gui_plugin.magik~
+GISPlugins/Smallworld/wdi!map_tile_generator/source/wdi!map_tile_generator_plugin.magik~
+GISPlugins/Smallworld/wdi!map_tile_generator.zip
+GISPlugins/Smallworld/wdi!map_tile_generator/source/wdi!map_tile_generator_engine_dev.magik
