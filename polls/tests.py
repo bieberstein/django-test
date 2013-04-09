@@ -5,8 +5,11 @@ from django.test import TestCase
 
 from polls.models import Poll
 
+# run tests: python manage.py test polls
+
 class PollMethodTests(TestCase):
 
+    # test methods start with test
     def test_was_published_recently_with_future_poll(self):
         """
         was_published_recently() should return False for polls whose
